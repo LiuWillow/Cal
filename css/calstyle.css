@@ -1,0 +1,109 @@
+﻿body{
+	background:#E6E6FA;
+	color:black;
+	font-size:16px;
+}
+table{
+	margin:0px 10px 20px 20px;
+	font-size:14px;
+	
+}
+p{
+	margin:10px 0 10px 20px;
+}
+
+.topp{
+	text-align:center;
+	
+}
+#container{
+	padding:20px 0 0 20px;
+	margin:50px auto;
+	background:#F0F0F0;
+	height:590px;
+}	
+
+.input,.output{
+	margin:15px;
+	padding:10px 0 10px 0;
+	background:#FFFFFF;
+	
+}
+.output{
+	height:120px;
+}
+#cal{
+	padding:10px;
+	margin:0 0 0 10px;
+	background:#F8F8FF;
+	width:30%;
+	float:left;
+}
+#cal:hover{
+	transition: 0.5s all;
+	background:#E0FFFF;
+	color:#2F4F4F;
+}
+button{
+	color:#A9A9A9;
+	background:white;
+	
+}
+button:hover{
+	transition: 0.5s all;
+	background:#E0FFFF;
+	color:#87CEEB;
+}
+.cal1{
+	width:80px;
+	height:30px;
+	margin:0 0 0 154px;
+	border:#F0F0F0 1px solid;
+}
+.del1{
+	width:80px;
+	height:30px;
+	margin:0 0 10px 10px;
+	border:#F0F0F0 1px solid;
+}
+.cal2{
+	width:80px;
+	height:30px;
+	margin:0 0 10px 107px;
+	border:#F0F0F0 1px solid;
+	
+}
+.del2{
+	width:80px;
+	height:30px;
+	margin:0 0 10px 8px;
+	border:#F0F0F0 1px solid;
+}
+.cal3{
+	width:80px;
+	height:30px;
+	margin:0 0 10px 107px;
+	border:#F0F0F0 1px solid;
+	
+}
+.del3{
+	width:80px;
+	height:30px;
+	margin:0 0 10px 8px;
+	border:#F0F0F0 1px solid;
+}
+#aa,#xa,#ya,#xb,#yb,#ab,#q,#xp,#yp,#x1,#y1,#x2,#y2,#a,#dis,#_xa,#_ya,#_xb,#_yb,#ap,#bp,#_xp,#_yp{
+	border:#F0F0F0 1px solid;
+	height:25px;
+	margin-left:20px;
+}
+
+input[type="text"]:hover {
+	background:#E0FFFF;
+	transition: 0.5s all;
+	
+}
+
+#x1,#x2,#y1,#y2{
+	margin-left:20px;
+}

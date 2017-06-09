@@ -1,0 +1,135 @@
+<html>
+<head>
+<link href="css/calstyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+
+	<div id="cal">
+		<p class="topp">前方交会</p>
+	<div class="input">
+		<p>输入（ABP顺时针则Q=1，否则为-1）</p>
+		<table>
+			<tr>
+				<td>αA（空格分开）:</td> <td><input id="aa"type="text"></td>
+				
+			</tr>
+			<tr>
+				<td>xA（米）:</td> <td><input id="xa" type="text"></td>
+			</tr>
+			<tr>
+				<td>yA（米）:</td> <td><input id="ya" type="text"></td>
+			</tr>
+			<tr>
+				<td>αB（空格分开）:</td> <td><input id="ab" type="text"></td>
+			</tr>
+			<tr>
+				<td>xB（米）:</td> <td><input id="xb" type="text"></td>
+			</tr>
+			<tr>
+				<td>yB（米）:</td> <td><input id="yb" type="text"></td>
+			</tr>
+			<tr>
+				<td>Q（米）:</td> <td><input id="q" type="text"></td>
+			</tr>
+			
+				
+			
+		</table>
+		<button class="cal1" onclick="calfront()">计算</button>
+		<button class="del1" onclick="clear1()">清空</button>
+	</div>
+	<div class="output">
+		<p>输出结果（米）</p>
+		<table>
+			<tr>
+				<td>xP:</td> <td><input id="xp" type="text"></td>
+				
+			</tr>
+			<tr>
+				<td>yP:</td> <td><input id="yp"type="text"></td>
+			</tr>
+		</table>
+	</div>
+	</div>
+	
+	
+	<div id="cal">
+	<p class="topp">已知点计算距离和方位角</p>
+		<div class="input">
+		<p>输入两点坐标（方位角1-2）</p>
+			<table>
+			<tr>
+				<td>x1（米）:</td> <td><input id="x1" type="text"></td>
+			</tr>
+			<tr>
+				<td>y1（米）:</td> <td><input id="y1" type="text"></td>
+			</tr>
+			<tr>
+				<td>x2（米）:</td> <td><input id="x2" type="text"></td>
+			</tr>
+			<tr>
+				<td>y2（米）:</td> <td><input id="y2" type="text"></td>
+			</tr>
+		</table>
+		<button class="cal2" onclick="caldisanda()">计算</button> 
+		<button  class="del2" onclick="clear2()">清空</button>
+		</div>
+		<div class="output">
+		<p>输出结果</p>
+			<table>
+			<tr>
+				<td>dis（米）:</td> <td><input id="dis" type="text"></td>
+			</tr>
+			<tr>
+				<td>α（度分秒）:</td> <td><input id="a" type="text"></td>
+			</tr>
+			</table>
+		</div>
+	</div>
+	
+<div id="cal">
+	<p class="topp">距离交会</p>
+		<div class="input">
+		<p>输入数据（ABP逆时针）</p>
+			<table>
+			<tr>
+				<td>xA（米）:</td> <td><input id="_xa" type="text"></td>
+			</tr>
+			<tr>
+				<td>yA（米）:</td> <td><input id="_ya" type="text"></td>
+			</tr>
+			<tr>
+				<td>xB（米）:</td> <td><input id="_xb" type="text"></td>
+			</tr>
+			<tr>
+				<td>yB（米）:</td> <td><input id="_yb" type="text"></td>
+			</tr>
+			<tr>
+				<td>AP（米）:</td> <td><input id="ap" type="text"></td>
+			</tr>
+			<tr>
+				<td>BP（米）:</td> <td><input id="bp" type="text"></td>
+			</tr>
+			
+		</table>
+		<button class="cal3" onclick="calbydis()">计算</button> 
+		<button  class="del3" onclick="clear3()">清空</button>
+		</div>
+		<div class="output">
+		<p>输出结果</p>
+			<table>
+			<tr>
+				<td>xP（米）:</td> <td><input id="_xp" type="text"></td>
+			</tr>
+			<tr>
+				<td>yP（米）:</td> <td><input id="_yp" type="text"></td>
+			</tr>
+			</table>
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="js/cal.js"></script>
+</html>

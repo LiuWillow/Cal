@@ -1,0 +1,84 @@
+﻿
+/* 取消下划线 */
+a{text-decoration:none;}
+
+body{
+  padding:150px 150px 0px 0px;
+  background-image: URL(../images/bg.jpg);
+}
+
+.login {
+  width: 38%;
+  float:right;
+}
+
+.login-top {
+  background: #6495ED;
+  height:45px;
+  padding: 30px 65px;
+  border-radius: 25px 25px 0px 0px;
+  text-align: right;
+
+}
+
+.login-bottom {
+  background: #E1E1E1;
+  border-radius: 0px 0px 25px 25px;
+  padding: 40px 60px;
+}
+
+.login-bottom h1 {
+  text-align: center;
+  font-size: 27px;
+  color: #6495ED;
+  margin: 0px 0px 20px 0px;
+}
+
+.login-bottom input[type="text"] {
+	outline: none;
+  font-size: 15px;
+  color: #818181;
+  padding: 15px 20px;
+  background: #CACACA;
+  border: 1px solid #ccc;
+  border-radius:25px;
+  margin: 0px 0px 12px 0px;
+  width: 88%;
+}
+.login-bottom input[type="text"]:hover {
+	background:#F0F0F0;
+	transition: 0.5s all;
+}
+.login-bottom input[type="password"]{
+	outline: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #818181;
+  padding: 15px 20px;
+  background: #CACACA;
+  border: 1px solid #ccc;
+  border-radius:25px;
+  margin: 0px 0px 12px 0px;
+  width: 88%;
+}
+.login-bottom input[type="password"]:hover {
+	background:#F0F0F0;
+	transition: 0.5s all;
+}
+
+.loginbutton input[type="submit"] {
+  background: #6495ED;
+  color: #FFF;
+  font-size: 17px;
+  padding: 8px 7px;
+  width: 100%;
+  height:40px;
+  border-radius: 25px;
+  margin: 0px 10px 0px 3px;
+  border: none;
+}
+
+.loginbutton input[type="submit"]:hover {
+	background:#818181;
+	transition: 0.5s all;
+}
